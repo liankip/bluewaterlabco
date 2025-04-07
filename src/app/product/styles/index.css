@@ -1,0 +1,11 @@
+.bg-product-title-our-products {
+  background-image: url('/assets/background/product/title/bg-our-products.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 640px) {
+  .bg-product-title-our-products {
+    background-image: url('/assets/background/product/title/bg-our-products.png');
+  }
+}

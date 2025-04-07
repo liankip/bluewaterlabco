@@ -1,0 +1,94 @@
+.bg-power-save-card {
+    background-image: url('/assets/background/home/our-platform/bg-power-save.png');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.bg-shift-3-card {
+    background-image: url('/assets/background/home/our-platform/bg-shift-3.png');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.bg-master-system-card {
+    background-image: url('/assets/background/home/our-platform/bg-master-system.png');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.bg-our-services-frame {
+    background-image: url('/assets/background/home/our-services/bg-frame-gradient.png');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 768px) and (pointer: fine) {
+    .bg-power-save-card {
+        background-image: none;
+    }
+
+    .bg-power-save-card:hover {
+        background-image: url('/assets/background/home/our-platform/bg-power-save.png');
+    }
+
+    .bg-shift-3-card {
+        background-image: none;
+    }
+
+    .bg-shift-3-card:hover {
+        background-image: url('/assets/background/home/our-platform/bg-shift-3.png');
+    }
+
+    .bg-master-system-card {
+        background-image: none;
+    }
+
+    .bg-master-system-card:hover {
+        background-image: url('/assets/background/home/our-platform/bg-master-system.png');
+    }
+}
+
+.transition-all {
+    transition: all 0.3s ease-in-out;
+}
+
+.swiper-container {
+    width: 480px;
+}
+
+@media screen and (min-width: 640px) {
+    .swiper-container {
+        width: 640px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .swiper-container {
+        width: 768px;
+    }
+}
+
+.slider-control {
+    position: relative;
+    bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-pagination {
+    position: relative;
+    width: 15rem;
+    bottom: 1rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background: white;
+}

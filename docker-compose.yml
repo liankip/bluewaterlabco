@@ -1,0 +1,13 @@
+name: bluewaterlab-web
+services:
+  app:
+    build: .
+    image: bluewaterlab-web
+    container_name: bluewaterlab-web
+    restart: always
+    ports:
+      - "3400:3000"
+    volumes:
+      - ./.env:/app/.env
+    environment:
+      - NODE_ENV=production

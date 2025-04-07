@@ -1,0 +1,51 @@
+.bg-case-study-objective {
+  background-image: url('/assets/img/case-study/information/objective.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-case-study-methodology {
+  background-image: url('/assets/img/case-study/information/methodology.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-case-study-summary-active-units {
+  background-image: url('/assets/background/case-study/summary/bg-active-units.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-case-study-summary-energy-efficiency {
+  background-image: url('/assets/background/case-study/summary/bg-energy-efficiency.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-case-study-summary-monetary-savings {
+  background-image: url('/assets/background/case-study/summary/bg-monetary-savings.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .bg-case-study-objective {
+    background-image: url('/assets/img/case-study/information/objective-mobile.png');
+  }
+
+  .bg-case-study-methodology {
+    background-image: url('/assets/img/case-study/information/methodology-mobile.png');
+  }
+
+  .bg-case-study-summary-active-units {
+    background-image: none;
+  }
+
+  .bg-case-study-summary-energy-efficiency {
+    background-image: none;
+  }
+
+  .bg-case-study-summary-monetary-savings {
+    background-image: none;
+  }
+}
